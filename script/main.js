@@ -67,14 +67,14 @@ const animationTimeline = () => {
             opacity: 0,
             y: 10
         },
-    "+=5")
+    "+=3.5")
     .to(".two",
         0.7,
         {
             opacity: 0,
             y: 10
         },
-    "-=5")
+    "-=1")
     .from(".three", 0.7, {
         opacity: 0,
         y: 10
@@ -85,7 +85,7 @@ const animationTimeline = () => {
             opacity: 0,
             y: 10
         },
-    "+=10")
+    "+=7")
     .from(".four", 0.7, {
         scale: 0.2,
         opacity: 0,
@@ -104,7 +104,7 @@ const animationTimeline = () => {
     .to(".fake-btn", 0.1, {
         backgroundColor: "rgb(127, 206, 248)",
     },
-    "+=5")
+    "+=4")
     .to(
         ".four",
         0.5, {
